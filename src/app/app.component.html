@@ -1,0 +1,31 @@
+<div class="game" [ngStyle]="{'height' : pageHeight + 'px'}">
+  <div class="wrapper">
+    <div class="board">
+      <div class="title">
+        <h3>Just an header</h3>
+        <span class="option" (click)="startRecordMode()">START RECORD</span>
+        <span class="option" (click)="stopRecordMode()">STOP RECORD</span>
+        <span class="option" (click)="startSong()">START TEST SONG</span>
+      </div>
+      <div class="table">
+          <ng-container *ngIf="!!actualNotesInMap && actualNotesInMap.length">
+            <ng-container *ngFor="let c of actualNotesInMap">
+                <div class="button-abs" [style.margin-top]="c.offsetTop + 'px'" [style.margin-left]="c.offsetLeft + 'px'"
+                [style.color]="c.borderColor" [style.background-color]="c.fillColor">
+                  <span class="text-value" [style.color]="black">X</span>
+                </div>
+            </ng-container>
+          </ng-container>
+      </div>
+      <div class="controllers">
+        <ng-container *ngFor="let c of controllers">
+          <div class="button" [style.color]="c.borderColor" [style.background-color]="c.isKeyDown ? c.fillColor : 'transparent'">
+            <span class="text-value" [style.color]="c.isKeyDown ? 'black' : 'white'">{{c.keyValue}}</span>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+    <div class="player">
+    </div>
+  </div>  
+</div>

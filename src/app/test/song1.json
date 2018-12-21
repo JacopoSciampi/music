@@ -1,0 +1,57 @@
+[{
+	"borderColor": "#b42c27",
+	"fillColor": "#d9534f",
+	"isClicked": false,
+	"isSpecial": false,
+	"point": 25,
+	"position": 1,
+	"offsetTime": 569
+}, {
+	"borderColor": "#0000cc",
+	"fillColor": "#0000ff",
+	"isClicked": false,
+	"isSpecial": false,
+	"point": 25,
+	"position": 2,
+	"offsetTime": 897
+}, {
+	"borderColor": "#ffe605",
+	"fillColor": "#ffeb3b",
+	"isClicked": false,
+	"isSpecial": false,
+	"point": 25,
+	"position": 3,
+	"offsetTime": 1216
+}, {
+	"borderColor": "#0000cc",
+	"fillColor": "#0000ff",
+	"isClicked": false,
+	"isSpecial": false,
+	"point": 25,
+	"position": 2,
+	"offsetTime": 1536
+}, {
+	"borderColor": "#b42c27",
+	"fillColor": "#d9534f",
+	"isClicked": false,
+	"isSpecial": false,
+	"point": 25,
+	"position": 1,
+	"offsetTime": 1872
+}, {
+	"borderColor": "#b42c27",
+	"fillColor": "#d9534f",
+	"isClicked": false,
+	"isSpecial": false,
+	"point": 25,
+	"position": 1,
+	"offsetTime": 2215
+}, {
+	"borderColor": "#b42c27",
+	"fillColor": "#d9534f",
+	"isClicked": false,
+	"isSpecial": false,
+	"point": 25,
+	"position": 1,
+	"offsetTime": 2560
+}]
